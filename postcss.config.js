@@ -4,8 +4,8 @@ module.exports = {
     plugins: [
         'postcss-preset-env',
         tailwindcss,
-        purgecss({
-            content: ['./**/*.html']
-        })
+        // purgecss({
+        //     content: ['./**/*.html']
+        // }),
     ],
 };
