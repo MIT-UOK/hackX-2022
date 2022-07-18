@@ -13,7 +13,7 @@ function Home() {
             <div className='stars3'></div>
 
             <Layout bgColorClassName={"bg-homeBg1"}>
-                <div class="grid grid-cols-1 md:grid-cols-2 h-screen w-full  pt-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 h-screen w-full  pt-20">
                     <div className='flex justify-center items-center'>
                         <HomeLeft />
                     </div>

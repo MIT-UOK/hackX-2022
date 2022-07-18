@@ -1,6 +1,7 @@
 import Home from "./componets/Home"
 import "./App.css"
 import Navbar from "./componets/Navbar"
+import TimeLine from "./componets/TimeLine"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <TimeLine />
     </>
   )
 }
