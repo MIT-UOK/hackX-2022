@@ -1,0 +1,68 @@
+#retrobg-sky {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#08111A 75%, #249);
+}
+
+/* ............................................................... */
+#retrobg-mountains {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+}
+
+.retrobg-mountain {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-image: linear-gradient(#000 70%, #111 85%, #fff1);
+}
+
+#retrobg-mountains-left {
+    left: 0;
+    clip-path: polygon(0% 100%, 0% 55%, 5% 60%, 10% 55%, 20% 50%, 25% 42%, 30% 38%, 33% 35%, 40% 45%, 50% 50%, 60% 70%, 70% 85%, 75% 82%, 80% 91%, 85% 90%, 90% 95%, 95% 98%, 100% 100%);
+}
+
+#retrobg-mountains-right {
+    right: 0;
+    clip-path: polygon(0% 100%, 5% 95%, 10% 85%, 15% 87%, 20% 80%, 25% 78%, 30% 65%, 40% 70%, 50% 57%, 60% 53%, 67% 68%, 70% 70%, 75% 66%, 80% 55%, 90% 50%, 95% 60%, 100% 57%, 100% 100%);
+}
+
+/* ............................................................... */
+#retrobg-cityWrap {
+    position: absolute;
+    width: 50%;
+    margin-left: -1%;
+}
+
+#retrobg-city {
+    padding-top: 20%;
+}
+
+.retrobg-building {
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background-image: linear-gradient(0deg, rgba(17, 17, 34, 0), #112 30px, #000);
+}
+
+.retrobg-building:nth-child(odd) {
+    background-image: linear-gradient(0deg, rgba(24, 24, 42, 0), #223 30px, #000);
+}
+
+.retrobg-antenna::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: calc(-1px - 5%);
+    bottom: 100%;
+    width: 10%;
+    min-width: 2px;
+    height: 33%;
+    background-color: #000;
+}
