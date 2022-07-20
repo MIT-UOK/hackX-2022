@@ -9,6 +9,7 @@ import ContactUs from "./componets/ConatactUs"
 import Footer from "./componets/Footer"
 import Info from "./componets/Info"
 import Guidelines from "./componets/Guidelines"
+import Team from "./componets/Team"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <TimeLine />
       <Awards />
       <Partners />
+      <Team />
       <ContactUs />
       <Town />
       <Footer />
