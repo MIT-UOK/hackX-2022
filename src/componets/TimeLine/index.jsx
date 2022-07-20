@@ -15,7 +15,7 @@ function TimeLine() {
     }
 
     return (
-        <div className='bg-homeBg1'>
+        <div id="TIME-LINE" className='bg-homeBg1 pt-20'>
             <HeadTile title={"TIME LINE"} />
             {data.map((item) => (
                 <VerticalTimeline lineColor="#ec9e23" key={item.id} layout="2-columns">

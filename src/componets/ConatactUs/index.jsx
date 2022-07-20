@@ -4,7 +4,7 @@ import Form from "./Form";
 
 function ContactUs() {
     return (
-        <div className="bg-homeBg1 pt-20">
+        <div id="CONTACT" className="bg-homeBg1 pt-20">
             <HeadTile title={"CONTACT"} />
             <div className="container px-3 md:px-0 mx-auto">
                 <div className="mt-12 grid grid-cols-1 gap-10 sm:mt-16 md:grid-cols-2  ">

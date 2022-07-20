@@ -8,7 +8,7 @@ import Title from "./Title";
 
 function Guidelines() {
     return (
-        <div className="bg-homeBg1 pt-20">
+        <div id="GUIDLINES" className="bg-homeBg1 pt-20">
             <HeadTile title={"GUIDLINES"} />
             <div className="container px-3 md:px-0 mx-auto">
                 <div className="my-12 grid grid-cols-1 gap-10 sm:my-16 md:grid-cols-2   ">

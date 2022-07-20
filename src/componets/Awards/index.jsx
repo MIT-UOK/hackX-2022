@@ -5,7 +5,7 @@ import ThirdPalace from "../../assets/awards/3.png"
 
 function Awards() {
     return (
-        <div className="bg-homeBg1 pt-20">
+        <div id="AWARDS" className="bg-homeBg1 pt-20">
             <HeadTile title={"AWARDS"} />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto pt-20">
                 <div className="flex flex-col justify-center items-center">
