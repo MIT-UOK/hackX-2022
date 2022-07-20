@@ -8,6 +8,7 @@ import Town from "./componets/Town"
 import ContactUs from "./componets/ConatactUs"
 import Footer from "./componets/Footer"
 import Info from "./componets/Info"
+import Guidelines from "./componets/Guidelines"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Home />
       <Info />
+      <Guidelines />
       <TimeLine />
       <Awards />
       <Partners />
