@@ -11,21 +11,14 @@ function Top() {
                     What is HackX?
                 </h2>
                 <p className="pt-4 pb-8 m-0 leading-7 text-gray-light  lg:text-lg">
-                    HackX Jr is an inter-school hackathon which provides a platform for
-                    school students to transform their ideas into reality. It promotes
-                    school students to build technology-based solutions to problems they
-                    see in the society.
+                    hackX is an Inter-University Startup Challenge, organized by the Industrial Management Science Students' Association (IMSSA) of the Department of Industrial Management, University of Kelaniya.
+
                 </p>
                 <p className="pt-4 pb-8 m-0 leading-7 text-gray-light lg:text-lg">
-                    Participants are enabled the opportunity to develop their soft
-                    skills and find inspiration to their creativity as well as
-                    problem-solving capabilities through this competition. It paves the
-                    path for schoolchildren to be introduced to the IT pathway, create
-                    interest and eventually assess the possibilities as well as benefits
-                    of IT – based entrepreneurship. It also provides a platform for
-                    industries to address the schoolchildren, evaluate their potential
-                    and benefit from their unbiased and open-minded solutions.
+                    HackX enables young innovators to pitch and explore their ideas, preparing them to be the leaders of tomorrow.Undergraduates will get an opportunity to create essential networks with industry executives and other industry stalwarts while enhancing their knowledge and skills, which will be very useful in their future pursuits as entrepreneurs.
                 </p>
+                <p className="pt-4 pb-8 m-0 leading-7 text-gray-light lg:text-lg">
+                    hackX unfolds its 7th chapter as hackX 2022, and looks forward to witnessing the innovative and creative ideas of Sri Lankan undergraduates for sustainable tech-based solutions.                </p>
             </div>
         </div>
     );
