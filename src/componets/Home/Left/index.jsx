@@ -1,6 +1,6 @@
 import Button from "../../Button";
 import useWindowDimensions from "../../../hook/getWindowDimensions";
-import { Wave } from 'react-animated-text';
+import Typewriter from 'typewriter-effect';
 
 function HomeLeft() {
     const { height, width } = useWindowDimensions();
@@ -13,13 +13,13 @@ function HomeLeft() {
 
 
             <h1
-                className="text-5xl lg:text-6xl 2xl:text-8xl tracking-wide leading-snug mb-3 md:mb-10 font-extrabold text-primary">
-                <Wave
-                    text="NOW OPEN!"
-                    effect="verticalFadeOut"
-                    paused={true}
-                    delay={2}
-                    effectDirection='down'
+                className="text-5xl lg:text-6xl 2xl:text-8xl tracking-wide leading-snug mb-3 md:mb-10 font-normal text-primary">
+                <Typewriter
+                    options={{
+                        strings: ['NOW OPEN'],
+                        autoStart: true,
+                        loop: true,
+                    }}
                 />
             </h1>
             <div >
