@@ -35,7 +35,9 @@ function ContactUs() {
                         responsive={responsive}
                         infinite={true}
                         autoPlay={true}
-                        transitionDuration={50}
+                        transitionDuration={1000}
+                        customTransition="all 1s linear"
+                        arrows={false}
                     >
                         <Partners />
                         <Partners />
