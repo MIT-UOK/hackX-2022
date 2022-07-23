@@ -20,18 +20,8 @@ export const MenuItems = [
     cName: "navlinks"
   },
   {
-    title: "PARTNERS",
-    url: "#PARTNERS",
-    cName: "navlinks"
-  },
-  {
     title: "OUR TEAM",
     url: "#OUR-TEAM",
-    cName: "navlinks"
-  },
-  {
-    title: "CONTACT",
-    url: "#CONTACT",
     cName: "navlinks"
   },
 ];
