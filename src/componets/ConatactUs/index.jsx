@@ -28,10 +28,9 @@ const responsive = {
 
 function ContactUs() {
     return (
-        <div id="CONTACT" className="bg-homeBg1 pt-20">
-            <HeadTile title={"CONTACT"} />
+        <div id="CONTACT" className="bg-black">
             <div className="container px-3 md:px-0 mx-auto">
-                <div className="my-10">
+                <div >
                     <Carousel
                         responsive={responsive}
                         infinite={true}
@@ -48,22 +47,22 @@ function ContactUs() {
                     </Carousel>;
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3">
-                    <div className="text-center  space-y-5 mb-10">
-                        <h1 className="text-4xl text-white font-semibold">General Links</h1>
-                        <p className="text-base text-gray-light">Department of Industrial Management University of Kelaniya</p>
-                        <div className="flex justify-center items-center">
+                    <div className="text-center   mb-10">
+                        <h1 className="text-4xl text-white font-semibold p-8">General Links</h1>
+                        <p className="text-base text-gray-light p-2">Department of Industrial Management University of Kelaniya</p>
+                        <div className="flex justify-center items-center p-2">
                             <img src={uok} alt="uok logo" width={100} height={100} />
                             <img src={imssa} alt="imssa logo" width={120} height={120} />
                         </div>
                     </div>
-                    <div className="text-center space-y-5 mb-10">
-                        <h1 className="text-4xl text-white font-semibold">General Information</h1>
-                        <p className="text-base text-gray-light">Industrial Management Science Students’ Association.</p>
-                        <p className="text-base text-gray-light">Department of Industrial Management, University of Kelaniya, Dalugama</p>
+                    <div className="text-center  mb-10">
+                        <h1 className="text-4xl text-white font-semibold p-8">General Information</h1>
+                        <p className="text-base text-gray-light p-2">Industrial Management Science Students’ Association.</p>
+                        <p className="text-base text-gray-light p-2">Department of Industrial Management, University of Kelaniya, Dalugama</p>
                     </div>
-                    <div className="text-center space-y-5 mb-10">
-                        <h1 className="text-4xl text-white font-semibold">Contact Info</h1>
-                        <div className="flex justify-center items-center">
+                    <div className="text-center  mb-10">
+                        <h1 className="text-4xl text-white font-semibold p-8">Contact Info</h1>
+                        <div className="flex justify-center items-center p-2">
                             <div className="bg-white p-2 rounded-md m-2">
                                 <BsFacebook color="blue" />
                             </div>
@@ -72,8 +71,8 @@ function ContactUs() {
                             </div>
                             <div className="bg-white p-2 rounded-md m-2"><BsYoutube color="red" /></div>
                         </div>
-                        <p className="text-base text-gray-light">Phone : +94 11 290 3282</p>
-                        <p className="text-base text-gray-light">hackxjr.mit@gmail.com</p>
+                        <p className="text-base text-gray-light p-2">Phone : +94 11 290 3282</p>
+                        <p className="text-base text-gray-light p-2">hackxjr.mit@gmail.com</p>
                     </div>
                 </div>
             </div>

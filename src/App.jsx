@@ -3,7 +3,6 @@ import "./App.css"
 import Navbar from "./componets/Navbar"
 import TimeLine from "./componets/TimeLine"
 import Awards from "./componets/Awards"
-import Partners from "./componets/Partners"
 import ContactUs from "./componets/ConatactUs"
 import Footer from "./componets/Footer"
 import Info from "./componets/Info"
@@ -21,7 +20,6 @@ function App() {
       <Guidelines />
       <TimeLine />
       <Awards />
-      <Partners />
       <Team />
       <ContactUs />
       <Footer />
