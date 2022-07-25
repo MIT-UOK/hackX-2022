@@ -15,6 +15,8 @@ function TimeLine() {
     return (
         <div id="TIME-LINE" className='bg-homeBg1 pt-20'>
             <HeadTile title={"TIME LINE"} />
+
+
             <div id="progress-bar-container">
                 <ul>
                     <li className={selectedIndex == 0 ? "step active" : "step"} onClick={() => callLineWidth(0)}><div className="step-inner">Registrations</div></li>
