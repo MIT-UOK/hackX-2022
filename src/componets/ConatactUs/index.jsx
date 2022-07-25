@@ -50,7 +50,7 @@ function ContactUs() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3">
                     <div className="text-center   mb-10">
-                        <h1 className="text-4xl text-white font-semibold p-8">General Links</h1>
+                        <HeadTile title={"General Links"} textSize="text-4xl" />
                         <p className="text-base text-gray-light p-2">Department of Industrial Management University of Kelaniya</p>
                         <div className="flex justify-center items-center p-2">
                             <img src={uok} alt="uok logo" width={100} height={100} />
@@ -58,12 +58,12 @@ function ContactUs() {
                         </div>
                     </div>
                     <div className="text-center  mb-10">
-                        <h1 className="text-4xl text-white font-semibold p-8">General Information</h1>
+                        <HeadTile title={"General Information"} textSize="text-4xl" />
                         <p className="text-base text-gray-light p-2">Industrial Management Science Students’ Association.</p>
                         <p className="text-base text-gray-light p-2">Department of Industrial Management, University of Kelaniya, Dalugama</p>
                     </div>
                     <div className="text-center  mb-10">
-                        <h1 className="text-4xl text-white font-semibold p-8">Contact Info</h1>
+                        <HeadTile title={"Contact Info"} textSize="text-4xl" />
                         <div className="flex justify-center items-center p-2">
                             <div className="bg-white p-2 rounded-md m-2">
                                 <BsFacebook color="blue" />

@@ -1,7 +1,7 @@
-function HeadTile({ title }) {
+function HeadTile({ title, alignment = "text-center", textSize = "text-5xl" }) {
     return (
-        <div className="text-center py-10">
-            <h1 className='text-5xl text-primary  border-y-2 border-primary inline'>{title}</h1>
+        <div className={`${alignment} py-10`}>
+            <h1 className={`${textSize} text-white inline`}>{title}</h1>
         </div>
     );
 }
