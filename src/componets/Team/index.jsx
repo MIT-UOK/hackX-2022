@@ -26,7 +26,7 @@ const responsive = {
 function Team() {
     return (
         <div id="OUR-TEAM" className="bg-homeBg1 pt-20">
-            <HeadTile title={"OUR TEAM"} />
+            <HeadTile title={"OUR TEAM"} shadow={true} />
             <div className="container px-3 md:px-0 mx-auto py-12">
                 <div >
                     <Carousel

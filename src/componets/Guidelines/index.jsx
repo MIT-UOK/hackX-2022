@@ -7,7 +7,7 @@ import data from "./data";
 function Guidelines() {
     return (
         <div id="GUIDLINES" className="bg-homeBg1 pt-20">
-            <HeadTile title={"GUIDELINES"} />
+            <HeadTile title={"GUIDELINES"} shadow={true} />
             <div className="container px-3 md:px-0 mx-auto">
                 <div className="pt-10 sm:pt-10 flex justify-center">
                     <Card>

@@ -15,7 +15,7 @@ function TimeLine() {
 
     return (
         <div id="TIMELINE" className='bg-homeBg1 pt-20'>
-            <HeadTile title={"TIMELINE"} />
+            <HeadTile title={"TIMELINE"} shadow={true} />
 
 
             <div id="progress-bar-container">
