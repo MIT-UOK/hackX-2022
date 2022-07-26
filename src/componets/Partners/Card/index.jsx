@@ -1,4 +1,4 @@
-function Partners() {
+function Card() {
     return (
         <>
             <div className="bg-white rounded-2xl py-5 flex flex-col items-center justify-center shadow-lg border border-gray-dark m-5">
@@ -11,4 +11,4 @@ function Partners() {
     );
 }
 
-export default Partners;
+export default Card;

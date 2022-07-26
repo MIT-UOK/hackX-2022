@@ -1,7 +1,7 @@
-import HeadTile from "../HeadTitle";
-import TeamCard from "./TeamCard";
+import Card from "./Card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import HeadTile from "../HeadTitle";
 
 const responsive = {
     superLargeDesktop: {
@@ -11,7 +11,7 @@ const responsive = {
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 4
+        items: 3
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -23,10 +23,10 @@ const responsive = {
     }
 };
 
-function Team() {
+function Partners() {
     return (
-        <div id="OUR-TEAM" className="bg-homeBg1 pt-20">
-            <HeadTile title={"OUR TEAM"} shadow={true} />
+        <div id="PARTNERS" className="bg-homeBg1 pt-20">
+            <HeadTile title={"PARTNERS"} shadow={true} />
             <div className="container px-3 md:px-0 mx-auto pt-12">
                 <div >
                     <Carousel
@@ -37,13 +37,12 @@ function Team() {
                         customTransition="all 1s linear"
                         arrows={false}
                     >
-                        <TeamCard />
-                        <TeamCard />
-                        <TeamCard />
-                        <TeamCard />
-                        <TeamCard />
-                        <TeamCard />
-                        <TeamCard />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
                     </Carousel>;
                 </div>
             </div>
@@ -51,4 +50,4 @@ function Team() {
     );
 }
 
-export default Team;
+export default Partners;

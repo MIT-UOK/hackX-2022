@@ -2,52 +2,13 @@ import HeadTile from "../HeadTitle";
 import imssa from "../../assets/imssa-300x255.png"
 import uok from "../../assets/uok.png"
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs"
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import Partners from "./Partners";
 
-const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 5
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-    }
-};
+
 
 function ContactUs() {
     return (
         <div id="CONTACT" className="bg-black">
             <div className="container px-3 md:px-0 mx-auto">
-                <div >
-                    <Carousel
-                        responsive={responsive}
-                        infinite={true}
-                        autoPlay={true}
-                        transitionDuration={1000}
-                        customTransition="all 1s linear"
-                        arrows={false}
-                    >
-                        <Partners />
-                        <Partners />
-                        <Partners />
-                        <Partners />
-                        <Partners />
-                        <Partners />
-                        <Partners />
-                    </Carousel>;
-                </div>
                 <div className="grid grid-cols-1 md:grid-cols-3">
                     <div className="text-center   mb-10">
                         <HeadTile title={"General Links"} textSize="text-4xl" />
