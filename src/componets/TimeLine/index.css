@@ -33,7 +33,7 @@
     #progress-bar-container li:hover:before {
         border: solid 2px #fff;
 
-        background: linear-gradient(to right, #ec9e23 0%, #47AF73 100%);
+        background: radial-gradient(white, black 10%, white 45%);
     }
 
     #progress-bar-container li {
