@@ -10,13 +10,13 @@ export const MenuItems = [
     cName: "navlinks"
   },
   {
-    title: "TIME LINE",
-    url: "#TIME-LINE",
+    title: "TIMELINE",
+    url: "#TIMELINE",
     cName: "navlinks"
   },
   {
-    title: "AWARDS",
-    url: "#AWARDS",
+    title: "PRIZE",
+    url: "#PRIZE",
     cName: "navlinks"
   },
   {

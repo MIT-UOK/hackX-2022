@@ -1,6 +1,6 @@
-function Paragraph({ _className, text, }) {
+function Paragraph({ _className, text, color = "text-gray-light" }) {
     return (
-        <p className={`${_className} leading-7 text-gray-light lg:text-lg`}>{text}</p>
+        <p className={`${_className} ${color} leading-7  lg:text-lg`}>{text}</p>
     );
 }
 

@@ -17,13 +17,15 @@
 //     },
 // ]
 
+import Paragraph from "../Paragraph"
+
 function List({ listItems }) {
     return (
         <ul role="list" className="space-y-4 py-6 text-gray-600">
             {listItems.map((item) => (
-                <li key={item.id} className="space-x-2">
-                    <span className="text-secondary font-semibold">✓</span>
-                    <span>{item.listItem}</span>
+                <li key={item.id} className="space-x-2 flex">
+                    <div className="text-secondary font-semibold">✓</div>
+                    <Paragraph color="text-white" text={item.listItem} />
                 </li>
             ))}
 

@@ -11,17 +11,20 @@ function Top() {
                 <Slider />
             </div>
             <div className="box-border order-first w-full text-white border-solid md:w-1/2 md:pl-10 md:order-none">
-                <HeadTitle alignment="text-left" title={"what is hackx?"} />
-                <p className="pt-4 pb-8 m-0 leading-7 text-gray-light  lg:text-lg">
-                    hackX is an Inter-University Startup Challenge, organized by the Industrial Management Science Students' Association (IMSSA) of the Department of Industrial Management, University of Kelaniya.
-
-                </p>
+                <HeadTitle alignment="text-left" title={"What is hackX?"} />
                 <Paragraph
                     _className="pt-4 pb-8 m-0"
-                    text={"HackX enables young innovators to pitch and explore their ideas, preparing them to be the leaders of tomorrow.Undergraduates will get an opportunity to create essential networks with industry executives and other industry stalwarts while enhancing their knowledge and skills, which will be very useful in their future pursuits as entrepreneurs."}
+                    text={"hackX is an Inter-University Startup Challenge, organized by the Industrial Management Science Students' Association (IMSSA) of the Department of Industrial Management, University of Kelaniya."}
                 />
-                <p className="pt-4 pb-8 m-0 leading-7 text-gray-light lg:text-lg">
-                    hackX unfolds its 7th chapter as hackX 2022, and looks forward to witnessing the innovative and creative ideas of Sri Lankan undergraduates for sustainable tech-based solutions.                </p>
+                <Paragraph
+                    _className="pt-4 pb-8 m-0"
+                    text={"hackX enables young innovators to pitch and explore their ideas, preparing them to be the leaders of tomorrow. Undergraduates will get an opportunity to create essential networks with industry executives and other industry stalwarts while enhancing their knowledge and skills, which will be very useful in their future pursuits as entrepreneurs."}
+                />
+                <Paragraph
+                    _className="pt-4 pb-8 m-0"
+                    text={"hackX unfolds its 7th chapter as hackX 2022, and looks forward to witnessing the innovative and creative ideas of Sri Lankan undergraduates for sustainable tech-based solutions."}
+                />
+
             </div>
         </div>
     );

@@ -115,8 +115,8 @@
     #progress-content-section {
         width: 60%;
         margin: auto;
-        background: #f3f3f3;
-        border-radius: 4px;
+        background: #273444;
+        border-radius: 1rem;
     }
 
     #progress-content-section .section-content {
@@ -141,11 +141,6 @@
         margin-bottom: 10px;
     }
 
-    #progress-content-section .section-content p {
-        font-size: 16px;
-        line-height: 1.8em;
-        color: #777;
-    }
 
     #progress-content-section .section-content {
         display: none;
@@ -206,8 +201,8 @@
     #progress-content-section {
         width: 90%;
         margin: auto;
-        background: #f3f3f3;
-        border-radius: 4px;
+        background: #273444;
+        border-radius: 1rem;
         margin-top: 10px;
 
     }
@@ -234,11 +229,6 @@
         margin-bottom: 10px;
     }
 
-    #progress-content-section .section-content p {
-        font-size: 16px;
-        line-height: 1.8em;
-        color: #777;
-    }
 
     #progress-content-section .section-content {
         display: none;
