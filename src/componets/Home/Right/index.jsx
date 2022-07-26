@@ -11,7 +11,7 @@ function HomeRight() {
     }
 
     return (
-        <div>
+        <div className="z-50">
             <img
                 src={mascot}
                 alt="hero"

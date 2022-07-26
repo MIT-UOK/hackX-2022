@@ -6,6 +6,28 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #47af73 #dcdee0;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #dcdee0;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #47af73;
+    border-radius: 7.5px;
+    border: 2px none #ffffff;
+}
+
 :root {
     --primary: #ec9e23;
     --secondary: #47AF73;
