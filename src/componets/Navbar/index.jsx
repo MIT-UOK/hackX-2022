@@ -22,9 +22,9 @@ function Navbar() {
         <div className="navbar-logo">
           <img
             src={logo}
-            height="50px"
-            width={"auto"}
-            alt="hero"
+            height={"50px"}
+            width={"100px"}
+            alt="logo"
           />
         </div>
         <div className="menu-icon" onClick={handleClick}>

@@ -54,7 +54,7 @@ function ContactUs() {
                         <p className="text-base text-gray-light p-2">Department of Industrial Management University of Kelaniya</p>
                         <div className="flex justify-center items-center p-2">
                             <img src={uok} alt="uok logo" width={100} height={100} />
-                            <img src={imssa} alt="imssa logo" width={120} height={120} />
+                            <img src={imssa} alt="imssa logo" width={120} height={150} />
                         </div>
                     </div>
                     <div className="text-center  mb-10">

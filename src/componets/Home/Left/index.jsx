@@ -7,7 +7,7 @@ function HomeLeft() {
     return (
         <div style={{ maxHight: `${height / 2}` }} className="sm:pb-2 md:pb-0 text-center">
             <h1
-                className="text-3xl lg:text-5xl 2xl:text-7xl  tracking-wide mb-3 md:mb-10 font-semibold text-primary">
+                className="text-3xl lg:text-5xl 2xl:text-7xl  tracking-wide mb-3 md:mb-10 font-semibold text-white">
                 REGISTRATIONS
             </h1>
 

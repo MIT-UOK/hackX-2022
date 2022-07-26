@@ -11,7 +11,7 @@
         padding: 0;
         margin: 0;
         padding-top: 15px;
-        z-index: 9999;
+        z-index: 100;
         position: absolute;
         width: 100%;
         margin-top: -40px
@@ -197,7 +197,8 @@
     #progress-bar-container li.active .step-inner,
     #progress-bar-container li:hover .step-inner {
         color: #fff;
-        background-color: #ec9e23;
+        /* background-color: #ec9e23; */
+        cursor: pointer;
     }
 
 
