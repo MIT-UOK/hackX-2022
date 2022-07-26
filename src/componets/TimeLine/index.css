@@ -120,26 +120,10 @@
     }
 
     #progress-content-section .section-content {
-        padding: 30px 40px;
+        padding: 20px;
         text-align: left;
     }
 
-    #progress-content-section .section-content h2 {
-        font-size: 17px;
-        text-transform: uppercase;
-        color: #333;
-        letter-spacing: 1px;
-        margin-bottom: 5px;
-    }
-
-    #progress-content-section .section-content h1 {
-        font-size: 20px;
-        text-transform: uppercase;
-        text-align: center;
-        color: #333;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
-    }
 
 
     #progress-content-section .section-content {
@@ -208,27 +192,9 @@
     }
 
     #progress-content-section .section-content {
-        padding: 30px 40px;
+        padding: 10px;
         text-align: left;
     }
-
-    #progress-content-section .section-content h2 {
-        font-size: 17px;
-        text-transform: uppercase;
-        color: #333;
-        letter-spacing: 1px;
-        margin-bottom: 5px;
-    }
-
-    #progress-content-section .section-content h1 {
-        font-size: 20px;
-        text-transform: uppercase;
-        text-align: center;
-        color: #333;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
-    }
-
 
     #progress-content-section .section-content {
         display: none;
