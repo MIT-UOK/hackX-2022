@@ -1,7 +1,7 @@
 function Button({ title }) {
     return (
         <button
-            className="hover:animate-pulse bg-gradient-to-r from-secondary via-secondary to-white px-10 py-5 font-bold text-white rounded rounded-tr-3xl rounded-bl-3xl">
+            className="border-2 border-white p-5 text-white text-xl font-bold rounded rounded-tr-3xl rounded-bl-3xl hover:text-black hover:bg-white ">
             {title}
         </button>
     );
