@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id: "1",
         listItem: "All participants should be undergraduates of a University or a Higher Education Institute"
@@ -20,3 +20,5 @@ export default [
         listItem: "The proposed idea cannot be changed after the submission of the proposal, but the final product may consist of additional features."
     },
 ]
+
+export default data;

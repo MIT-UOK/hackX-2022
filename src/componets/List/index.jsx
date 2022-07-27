@@ -21,7 +21,7 @@ import Paragraph from "../Paragraph"
 
 function List({ listItems }) {
     return (
-        <ul role="list" className="space-y-4 py-6 text-gray-600">
+        <ul className="space-y-4 py-6 text-gray-600">
             {listItems.map((item) => (
                 <li key={item.id} className="space-x-2 flex">
                     <div className="text-secondary font-semibold">✓</div>

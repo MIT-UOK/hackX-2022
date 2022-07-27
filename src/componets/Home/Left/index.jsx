@@ -3,7 +3,7 @@ import useWindowDimensions from "../../../hook/getWindowDimensions";
 import Typewriter from 'typewriter-effect';
 
 function HomeLeft() {
-    const { height, width } = useWindowDimensions();
+    const { height } = useWindowDimensions();
     return (
         <div style={{ maxHight: `${height / 2}` }} className="sm:pb-2 md:pb-0 text-center">
             <h1

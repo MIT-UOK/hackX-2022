@@ -1,4 +1,3 @@
-import Button from '../Button';
 import Layout from '../Layout';
 import './index.css'
 import HomeLeft from './Left';
