@@ -120,7 +120,7 @@
     }
 
     #progress-content-section .section-content {
-        padding: 20px;
+        padding: 50px;
         text-align: left;
     }
 
@@ -183,7 +183,7 @@
 
 
     #progress-content-section {
-        width: 90%;
+        width: 97%;
         margin: auto;
         background: #273444;
         border-radius: 1rem;
@@ -194,6 +194,7 @@
     #progress-content-section .section-content {
         padding: 10px;
         text-align: left;
+        padding: 1.5rem;
     }
 
     #progress-content-section .section-content {

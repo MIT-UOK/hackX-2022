@@ -8,10 +8,10 @@ function Guidelines() {
     return (
         <div id="GUIDLINES" className="bg-homeBg1 pt-20">
             <HeadTile title={"GUIDELINES"} />
-            <div className="container px-3 md:px-0 mx-auto">
+            <div className="container px-1 md:px-0 mx-auto">
                 <div className="pt-10 sm:pt-10 flex justify-center">
                     <Card>
-                        <div className=" flex justify-center items-center px-4">
+                        <div className=" flex justify-center items-center px-6 md:px-14">
                             <List listItems={data} />
                         </div>
                         <div className="text-center py-5">
