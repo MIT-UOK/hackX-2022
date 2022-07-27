@@ -6,7 +6,7 @@ import Slider from "../../Slider";
 function Top() {
     return (
         <div className="box-border flex flex-col items-center content-center mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row ">
-            <div className="rounded-xl overflow-hidden  box-border relative w-full max-w-md  mt-5 mb-4  text-center bg-no-repeat bg-contain border-solid h-96 m-3 md:max-w-none lg:mb-0 md:w-1/2 ">
+            <div className="rounded-xl overflow-hidden  box-border relative w-full max-w-md  mt-10  text-center bg-no-repeat bg-contain border-solid m-3 md:max-w-none lg:mb-0 md:w-1/2 ">
                 {/* <img src={mascottyWithTab} /> */}
                 <Slider />
             </div>
