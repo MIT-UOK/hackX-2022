@@ -1,7 +1,7 @@
 function Button({ title }) {
     return (
         <button
-            className="border-2 border-white p-5 text-white text-xl font-bold rounded rounded-tr-3xl rounded-bl-3xl hover:text-black hover:bg-white ">
+            className="transition ease-in-out delay-150 bg-primary p-5 hover:-translate-y-1 hover:scale-110  duration-300 text-xl font-bold rounded rounded-tr-3xl rounded-bl-3xl  text-white ">
             {title}
         </button>
     );

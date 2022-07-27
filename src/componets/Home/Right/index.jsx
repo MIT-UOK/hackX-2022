@@ -6,7 +6,7 @@ function HomeRight() {
     let imgHeight = height - 100;
 
     const styles = {
-        maxHeight: width >= 768 ? `${imgHeight}px` : `${height / 2 - 10}px`,
+        maxHeight: width >= 768 ? `${imgHeight}px` : `${height / 2 - 25}px`,
         width: "auto"
     }
 
