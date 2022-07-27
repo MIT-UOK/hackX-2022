@@ -10,7 +10,7 @@ function Top() {
                 {/* <img src={mascottyWithTab} /> */}
                 <Slider />
             </div>
-            <div className="box-border order-first w-full text-white border-solid md:w-1/2 md:pl-10 md:order-none">
+            <div className="box-border  w-full text-white border-solid md:w-1/2 md:pl-10 md:order-none">
                 <HeadTitle alignment="text-left" title={"What is hackX?"} />
                 <Paragraph
                     _className="pt-4 pb-8 m-0"

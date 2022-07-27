@@ -1,10 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap'); */
 
 html {
     scroll-behavior: smooth;
 }
+
+/* 
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
@@ -19,13 +25,13 @@ html {
 }
 
 *::-webkit-scrollbar-track {
-    background: #dcdee0;
+    background: #8492a6;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #47af73;
+    background-color: white;
     border-radius: 7.5px;
-    border: 2px none #ffffff;
+    border: 2px none white
 }
 
 :root {

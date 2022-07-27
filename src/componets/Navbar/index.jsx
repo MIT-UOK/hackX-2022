@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <div style={scrollPosition > 0 ? { zIndex: 200 } : null} className="FixNav">
-      <nav style={scrollPosition > 0 ? { borderBottom: "#47AF73 1px solid" } : null} className="Navbaritems">
+      <nav style={scrollPosition > 0 ? { borderBottom: "white 1px solid" } : null} className="Navbaritems">
         <div className="navbar-logo">
           <img
             src={logo}

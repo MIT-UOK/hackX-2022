@@ -32,12 +32,12 @@
 
 .navlinks {
   text-decoration: none;
-  color: var(--secondary);
+  color: white;
   padding: 0.5rem 1rem;
 }
 
 .navlinks:hover {
-  background-color: var(--secondary);
+  background-color: white;
   color: var(--black);
   border-radius: 4px;
   transition: all 0.5s ease-in-out;
@@ -77,7 +77,7 @@
 
   .nav-menu.active {
     display: flex;
-    background-color: var(--secondary);
+    background-color: #273444;
     border-radius: 15px;
     width: 100%;
     left: 0;
@@ -88,7 +88,7 @@
 
   .navlinks {
     text-decoration: none;
-    color: var(--black);
+    color: white;
     padding: 1rem;
     width: 100%;
     display: table;
@@ -98,8 +98,8 @@
   .navlinks:hover {
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
-    color: var(--secondary);
+    background-color: white;
+    color: black;
     justify-content: center;
     border-radius: 15px;
     transition: all 0.5s ease-in-out;
