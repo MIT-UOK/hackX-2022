@@ -26,7 +26,7 @@ const responsive = {
 function Partners() {
     return (
         <div id="PARTNERS" className="bg-homeBg1 pt-20">
-            <HeadTile title={"PARTNERS"} shadow={true} />
+            <HeadTile title={"PARTNERS"} />
             <div className="container px-3 md:px-0 mx-auto pt-12">
                 <div >
                     <Carousel

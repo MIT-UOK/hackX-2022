@@ -11,7 +11,7 @@ function Top() {
                 <Slider />
             </div>
             <div className="box-border order-first w-full text-white border-solid md:w-1/2 md:pl-10 md:order-none">
-                <HeadTitle alignment="text-left" title={"What is hackX?"} shadow={true} />
+                <HeadTitle alignment="text-left" title={"What is hackX?"} />
                 <Paragraph
                     _className="pt-4 pb-8 m-0"
                     text={"hackX is an Inter-University Startup Challenge, organized by the Industrial Management Science Students' Association (IMSSA) of the Department of Industrial Management, University of Kelaniya."}

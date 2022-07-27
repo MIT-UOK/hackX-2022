@@ -6,7 +6,7 @@ import ThirdPalace from "../../assets/awards/thirdPlace.webp"
 function Awards() {
     return (
         <div id="PRIZE" className="bg-homeBg1 pt-20">
-            <HeadTile title={"PRIZE"} shadow={true} />
+            <HeadTile title={"PRIZE"} />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
                 <div className="flex flex-col justify-center items-center">
                     <img src={secondPlace} alt="secondPlace" width={"50%"} height={"auto"} />
