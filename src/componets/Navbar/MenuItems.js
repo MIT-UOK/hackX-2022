@@ -15,8 +15,8 @@ export const MenuItems = [
     cName: "navlinks"
   },
   {
-    title: "PRIZE",
-    url: "#PRIZE",
+    title: "PRIZES",
+    url: "#PRIZES",
     cName: "navlinks"
   },
   {
@@ -24,11 +24,11 @@ export const MenuItems = [
     url: "#OUR-TEAM",
     cName: "navlinks"
   },
-  {
-    title: "PARTNERS",
-    url: "#PARTNERS",
-    cName: "navlinks"
-  },
+  // {
+  //   title: "PARTNERS",
+  //   url: "#PARTNERS",
+  //   cName: "navlinks"
+  // },
   {
     title: "CONTACT",
     url: "#CONTACT",

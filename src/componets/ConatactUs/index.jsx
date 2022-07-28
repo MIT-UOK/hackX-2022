@@ -24,16 +24,24 @@ function ContactUs() {
                     <div className="text-center md:col-span-2  mb-10">
                         <HeadTile title={"Contact Info"} textSize="text-4xl" />
                         <div className="flex justify-center items-center p-2">
-                            <div className="bg-white p-2 rounded-md m-2">
-                                <BsFacebook color="blue" />
+                            <div className="bg-white p-2 rounded-md m-2 cursor-pointer">
+                                <a href="https://www.facebook.com/imhackx/" target="blank">
+                                    <BsFacebook color="blue" />
+                                </a>
                             </div>
-                            <div className="bg-white p-2 rounded-md m-2">
-                                <BsInstagram color="rose" />
+                            <div className="bg-white p-2 rounded-md m-2 cursor-pointer">
+                                <a href="https://www.instagram.com/hackx_uok/" target="blank">
+                                    <BsInstagram color="rose" />
+                                </a>
                             </div>
-                            <div className="bg-white p-2 rounded-md m-2"><BsYoutube color="red" /></div>
+                            <div className="bg-white p-2 rounded-md m-2 cursor-pointer">
+                                <a href="https://www.youtube.com/c/hackXUoK" target="blank">
+                                    <BsYoutube color="red" />
+                                </a>
+                            </div>
                         </div>
                         <p className="text-base text-gray-light p-2">Phone : +94 11 290 3282</p>
-                        <p className="text-base text-gray-light p-2">hackxjr.mit@gmail.com</p>
+                        <p className="text-base text-gray-light p-2">hackx.imssa@gmail.com</p>
                     </div>
                 </div>
             </div>

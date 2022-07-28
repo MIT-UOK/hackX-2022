@@ -1,7 +1,7 @@
 import { AiOutlineMail } from "react-icons/ai"
 import { BsTelephonePlus } from "react-icons/bs"
 
-function TeamCard({ src, name, position }) {
+function TeamCard({ src, name, position, email, mobile }) {
     return (
         <div className="flex flex-col items-center py-4">
             <img
@@ -16,8 +16,12 @@ function TeamCard({ src, name, position }) {
                 {position}
             </p>
             <div className="flex gap-4  pt-3 cursor-pointer">
-                <AiOutlineMail size={"20px"} color="white" />
-                <BsTelephonePlus size={"20px"} color="white" />
+                <a href={`mailto:${email}`}>
+                    <AiOutlineMail size={"20px"} color="white" />
+                </a>
+                <a href={`tel:${mobile}`}>
+                    <BsTelephonePlus size={"20px"} color="white" />
+                </a>
             </div>
         </div>
     );
