@@ -14,15 +14,18 @@ function Awards() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-10 container mx-auto">
                 <div className="flex  flex-col justify-center items-center">
                     <img src={secondPlace} alt="secondPlace" width={`${width >= 768 ? "50%" : "75%"}`} height={"auto"} />
-                    <h1 className="text-xl text-primary font-semibold p-3">LKR 60,000</h1>
+                    <h1 className="text-xl md:text-2xl text-white font-semibold pt-3">LKR 60,000</h1>
+                    <h1 className="text-xl md:text-2xl text-gray-light">1<sup className="ordinal">st</sup> Runner-Up</h1>
                 </div>
                 <div className="flex flex-col col-span-2 md:col-span-1 justify-start items-center order-first md:order-none">
                     <img src={firstPlace} alt="firstPlace" width={`${width >= 768 ? "70%" : "50%"}`} height={"auto"} />
-                    <h1 className="text-2xl text-primary font-semibold p-3">LKR 100,000</h1>
+                    <h1 className="text-3xl text-white font-semibold pt-3">LKR 100,000</h1>
+                    <h1 className="text-xl md:text-2xl text-gray-light  ">Winner</h1>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <img src={ThirdPalace} alt="ThirdPalace" width={`${width >= 768 ? "50%" : "75%"}`} height={"auto"} />
-                    <h1 className="text-xl text-primary font-semibold p-3">LKR 40,000</h1>
+                    <h1 className="text-xl md:text-2xl text-white font-semibold pt-3">LKR 40,000</h1>
+                    <h1 className="text-xl md:text-2xl text-gray-light">2<sup>nd</sup> Runner-Up</h1>
                 </div>
             </div>
         </div>
