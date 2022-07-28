@@ -9,6 +9,8 @@ function Awards() {
     return (
         <div id="PRIZES" className="bg-homeBg1 pt-20">
             <HeadTile title={"PRIZES"} />
+            <h1 className="text-center pb-5 text-2xl text-white font-no">Take the <span className="font-bold">challenge</span> to win amazing <span className="font-bold">cash prizes</span> !</h1>
+
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-10 container mx-auto">
                 <div className="flex  flex-col justify-center items-center">
                     <img src={secondPlace} alt="secondPlace" width={`${width >= 768 ? "50%" : "75%"}`} height={"auto"} />

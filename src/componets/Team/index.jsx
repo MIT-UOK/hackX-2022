@@ -42,8 +42,8 @@ function Team() {
                         customTransition="all 1s linear"
                         arrows={false}
                     >
-                        <TeamCard name={"Waruna Sri Wickramasinghe"} position={"Co-Chief Coordinator"} email={"warunasri44@gmail.com"} mobile={"+94762356552"} src={pic3} />
-                        <TeamCard name={"Thakshana Selvakumar"} position={"Co-Chief Coordinator"} email={"thakshanah28@gmail.com"} mobile={"+94762080474"} src={pic2} />
+                        <TeamCard name={"Waruna Sri Wickramasinghe"} position={"Chief Coordinator"} email={"warunasri44@gmail.com"} mobile={"+94762356552"} src={pic3} />
+                        <TeamCard name={"Thakshana Selvakumar"} position={"Chief Coordinator"} email={"thakshanah28@gmail.com"} mobile={"+94762080474"} src={pic2} />
                         <TeamCard name={"Manod De Silva"} position={"Financial Coordinator"} email={""} mobile={"+94704726933"} src={pic4} />
                         <TeamCard name={"Vishaka Bandara"} position={"Financial Coordinator"} email={""} mobile={"+94705902984"} src={pic1} />
                         <TeamCard name={"Kavisha Amarasinghe"} position={"Sponsorship Coordinator"} email={"gayendraamarasinghe@gmail.com"} mobile={"+94772299817"} src={pic5} />
