@@ -166,20 +166,30 @@
 
     .step-inner {
         width: 60%;
-        background-color: #47AF73;
+        background-color: #273444;
+        color: white;
         margin: 10px;
         padding: 5px;
         text-align: center;
         border-radius: 10px;
     }
 
-    #progress-bar-container li.active .step-inner,
+
     #progress-bar-container li:hover .step-inner {
-        color: #fff;
-        /* background-color: #ec9e23; */
+        color: #d3dce6;
+        font-weight: bolder;
         cursor: pointer;
     }
 
+    #progress-bar-container li.active .step-inner {
+        color: #d3dce6;
+        font-weight: bolder;
+        width: 70%;
+        cursor: pointer;
+        animation: FadeInUp 700ms ease 1;
+        animation-fill-mode: forwards;
+        transform: translateY(15px);
+    }
 
 
     #progress-content-section {
@@ -211,13 +221,15 @@
 
     @keyframes FadeInUp {
         0% {
-            transform: translateY(15px);
+            transform: translateX(15px);
             opacity: 0;
         }
 
         100% {
-            transform: translateY(0px);
+            transform: translateX(0px);
             opacity: 1;
         }
     }
+
+
 }
