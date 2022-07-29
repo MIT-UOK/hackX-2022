@@ -14,7 +14,7 @@ function ContactUs() {
                     <div className="text-center md:col-span-2   mb-10">
                         <HeadTile title={"General Information"} textSize="text-4xl" />
                         <p className="text-base text-gray-light p-2">Industrial Management Science Students’ Association.</p>
-                        <p className="text-base text-gray-light p-2">Department of Industrial Management, University of Kelaniya, SriLanka</p>
+                        <p className="text-base text-gray-light p-2">Department of Industrial Management, University of Kelaniya, Sri Lanka</p>
                         <div className="flex justify-center items-center p-2">
                             <img src={uok} alt="uok logo" width={100} height={100} />
                             <img src={imssa} alt="imssa logo" width={120} height={150} />
