@@ -15,7 +15,10 @@ function Guidelines() {
                             <List listItems={data} />
                         </div>
                         <div className="text-center py-5">
-                            <Button title={"All Rules and Regulations"} />
+                            <Button
+                                title={"All Rules and Regulations"}
+                                href="https://drive.google.com/file/d/1eWTSrf_xQrpI5lCSGOeD5XJ4C3gL6yyy/view?usp=sharing"
+                            />
                         </div>
                     </Card>
                 </div>

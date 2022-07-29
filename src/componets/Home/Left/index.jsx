@@ -23,7 +23,10 @@ function HomeLeft() {
                 />
             </h1>
             <div >
-                <Button title={" REGISTER NOW"} />
+                <Button
+                    title={" REGISTER NOW"}
+                    href="https://forms.gle/Rxoq25Xrx1dTnn1t8"
+                />
             </div>
         </div>
 

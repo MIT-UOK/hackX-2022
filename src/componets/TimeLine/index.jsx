@@ -3,6 +3,7 @@ import "./index.css"
 import { useState } from "react";
 import Paragraph from "../Paragraph"
 import IconText from './IconText';
+import Button from "../Button"
 
 
 function TimeLine() {
@@ -44,6 +45,14 @@ function TimeLine() {
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>Proposal submission</div>
                     <IconText type="time" details="August 27th, 2022" />
                     <Paragraph color="text-white" text={"The proposals prepared according to the sample structure provided should be submitted via www.hackx.lk."} />
+
+
+                    <div className='flex justify-center pt-5'>
+                        <Button
+                            title={"Sample Proposal"}
+                            href="https://drive.google.com/file/d/1EvwUpuk6zdv92wzJVMecIydywwfS5Ejf/view?usp=sharing"
+                        />
+                    </div>
                 </div>
 
                 <div className={selectedIndex === 2 ? "section-content active" : "section-content"}>

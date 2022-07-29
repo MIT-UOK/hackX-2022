@@ -1,7 +1,7 @@
 import HeadTile from "../HeadTitle";
-import firstPlace from "../../assets/awards/firstPlace.webp"
-import secondPlace from "../../assets/awards/secondPlace.webp"
-import ThirdPalace from "../../assets/awards/thirdPlace.webp"
+import firstPlace from "../../assets/awards/firstPlace.png"
+import secondPlace from "../../assets/awards/secondPlace.png"
+import ThirdPalace from "../../assets/awards/thirdPlace.png"
 import useWindowDimensions from "../../hook/getWindowDimensions";
 
 function Awards() {
