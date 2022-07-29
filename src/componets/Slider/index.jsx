@@ -37,8 +37,10 @@ function Slider() {
             responsive={responsive}
             infinite={true}
             autoPlay={true}
+            autoPlaySpeed={1000}
             transitionDuration={1000}
             customTransition="all 1s linear"
+            containerClass="z-10"
             // arrows={false}
             swipeable={true}
         >

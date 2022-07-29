@@ -184,11 +184,12 @@
     #progress-bar-container li.active .step-inner {
         color: #d3dce6;
         font-weight: bolder;
-        width: 70%;
+        border: 1px white solid;
         cursor: pointer;
-        animation: FadeInUp 700ms ease 1;
-        animation-fill-mode: forwards;
-        transform: translateY(15px);
+        -webkit-animation: glowing 1500ms infinite;
+        -moz-animation: glowing 1500ms infinite;
+        -o-animation: glowing 1500ms infinite;
+        animation: glowing 1500ms infinite;
     }
 
 
@@ -228,6 +229,74 @@
         100% {
             transform: translateX(0px);
             opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes glowing {
+        0% {
+            background-color: #273444;
+            -webkit-box-shadow: 0 0 3px #273444;
+        }
+
+        50% {
+            background-color: #273444;
+            -webkit-box-shadow: 0 0 40px #273444;
+        }
+
+        100% {
+            background-color: #273444;
+            -webkit-box-shadow: 0 0 3px #273444;
+        }
+    }
+
+    @-moz-keyframes glowing {
+        0% {
+            background-color: #273444;
+            -moz-box-shadow: 0 0 3px #273444;
+        }
+
+        50% {
+            background-color: #273444;
+            -moz-box-shadow: 0 0 40px #273444;
+        }
+
+        100% {
+            background-color: #273444;
+            -moz-box-shadow: 0 0 3px #273444;
+        }
+    }
+
+    @-o-keyframes glowing {
+        0% {
+            background-color: #273444;
+            box-shadow: 0 0 3px #273444;
+        }
+
+        50% {
+            background-color: #273444;
+            box-shadow: 0 0 40px #273444;
+        }
+
+        100% {
+            background-color: #273444;
+            box-shadow: 0 0 3px #273444;
+        }
+    }
+
+    @keyframes glowing {
+        0% {
+            background-color: #273444;
+            box-shadow: 0 0 3px #273444;
+        }
+
+        50% {
+            background-color: #273444;
+            box-shadow: 0 0 40px #273444;
+        }
+
+        100% {
+            background-color: #273444;
+            box-shadow: 0 0 3px #273444;
         }
     }
 
