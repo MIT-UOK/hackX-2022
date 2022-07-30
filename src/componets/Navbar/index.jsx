@@ -5,16 +5,25 @@ import { MenuItems } from "./MenuItems";
 import logo from "../../assets/logo.png"
 import useScrollPosition from "../../hook/useScrollPosition";
 import "./index.css";
-
+import useWindowDimensions from "../../hook/getWindowDimensions"
 
 
 function Navbar() {
   const [clicked, setClicked] = useState(false)
   const scrollPosition = useScrollPosition();
+  const { width } = useWindowDimensions();
 
   const handleClick = () => {
     setClicked(!clicked)
   };
+
+  const handleNavLinkClickOnMobile = () => {
+    if (width <= 768) {
+      if (clicked) {
+        setClicked(false)
+      }
+    }
+  }
 
   return (
     <div style={scrollPosition > 0 ? { zIndex: 200 } : null} className="FixNav">
@@ -34,9 +43,9 @@ function Navbar() {
         <ul className={clicked ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((item, index) => {
             return (
-              <li key={index}>
+              <li key={index} onClick={handleNavLinkClickOnMobile}>
                 <a className={item.cName} href={item.url}>
-                  <b>{item.title}</b>
+                  <b >{item.title}</b>
                 </a>
               </li>
             );
