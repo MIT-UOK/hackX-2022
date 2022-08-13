@@ -48,8 +48,8 @@ function Team() {
                         <TeamCard name={"Thakshana Selvakumar"} position={"Chief Coordinator"} email={"thakshanah28@gmail.com"} mobile={"+94762080474"} src={pic2} />
                         <TeamCard name={"Manod De Silva"} position={"Financial Coordinator"} email={"t.m.k.d.silva@gmail.com"} mobile={"+94704726933"} src={pic4} />
                         <TeamCard name={"Vishaka Bandara"} position={"Financial Coordinator"} email={"vishdanu@gmail.com"} mobile={"+94705902984"} src={pic1} />
-                        <TeamCard name={"Kavisha Amarasinghe"} position={"Sponsorship Coordinator"} email={"gayendraamarasinghe@gmail.com"} mobile={"+94772299817"} src={pic5} />
                         <TeamCard name={"Tharindu Weerathunga"} position={"Sponsorship Coordinator"} email={"tharinduweera88@gmail.com"} mobile={"+94712627731"} src={pic6} />
+                        <TeamCard name={"Kavisha Amarasinghe"} position={"Sponsorship Coordinator"} email={"gayendraamarasinghe@gmail.com"} mobile={"+94772299817"} src={pic5} />
                         <TeamCard name={"Udara Suranimala"} position={"Marketing Coordinator"} email={"udara.suranimala1999@gmail.com"} mobile={"+94711713221"} src={pic7} />
                     </Carousel>;
                 </div>
