@@ -7,6 +7,8 @@ import pic2 from "../../assets/team/2.png"
 import pic3 from "../../assets/team/3.png"
 import pic4 from "../../assets/team/4.jpg"
 import pic5 from "../../assets/team/5.png"
+import pic6 from "../../assets/team/Tharindu.png"
+import pic7 from "../../assets/team/Udara.png"
 
 const responsive = {
     superLargeDesktop: {
@@ -44,12 +46,11 @@ function Team() {
                     >
                         <TeamCard name={"Waruna Sri Wickramasinghe"} position={"Chief Coordinator"} email={"warunasri44@gmail.com"} mobile={"+94762356552"} src={pic3} />
                         <TeamCard name={"Thakshana Selvakumar"} position={"Chief Coordinator"} email={"thakshanah28@gmail.com"} mobile={"+94762080474"} src={pic2} />
-                        <TeamCard name={"Manod De Silva"} position={"Financial Coordinator"} email={""} mobile={"+94704726933"} src={pic4} />
-                        <TeamCard name={"Vishaka Bandara"} position={"Financial Coordinator"} email={""} mobile={"+94705902984"} src={pic1} />
+                        <TeamCard name={"Manod De Silva"} position={"Financial Coordinator"} email={"t.m.k.d.silva@gmail.com"} mobile={"+94704726933"} src={pic4} />
+                        <TeamCard name={"Vishaka Bandara"} position={"Financial Coordinator"} email={"vishdanu@gmail.com"} mobile={"+94705902984"} src={pic1} />
                         <TeamCard name={"Kavisha Amarasinghe"} position={"Sponsorship Coordinator"} email={"gayendraamarasinghe@gmail.com"} mobile={"+94772299817"} src={pic5} />
-                        {/* 
-                        <TeamCard />
-                        <TeamCard /> */}
+                        <TeamCard name={"Tharindu Weerathunga"} position={"Sponsorship Coordinator"} email={"tharinduweera88@gmail.com"} mobile={"+94712627731"} src={pic6} />
+                        <TeamCard name={"Udara Suranimala"} position={"Marketing Coordinator"} email={"udara.suranimala1999@gmail.com"} mobile={"+94711713221"} src={pic7} />
                     </Carousel>;
                 </div>
             </div>

@@ -50,7 +50,7 @@ function TimeLine() {
                     <div className='flex justify-center pt-5'>
                         <Button
                             title={"Sample Proposal"}
-                            href="https://drive.google.com/file/d/1EvwUpuk6zdv92wzJVMecIydywwfS5Ejf/view?usp=sharing"
+                            href="https://drive.google.com/drive/folders/14S1FAyjl9D8lJwdqOeC8PSGKHBXcUEhZ?usp=sharing"
                         />
                     </div>
                 </div>
