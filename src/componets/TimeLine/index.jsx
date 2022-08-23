@@ -7,8 +7,8 @@ import Button from "../Button"
 
 
 function TimeLine() {
-    const [selectedIndex, setSelectedIndex] = useState(0)
-    const [lineWidth, setLineWidth] = useState("0%")
+    const [selectedIndex, setSelectedIndex] = useState(1)
+    const [lineWidth, setLineWidth] = useState("25%")
 
     const callLineWidth = (index) => {
         setSelectedIndex(index)
