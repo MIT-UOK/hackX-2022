@@ -37,20 +37,24 @@ function TimeLine() {
             <div id="progress-content-section">
                 <div className={selectedIndex === 0 ? "section-content active" : "section-content"}>
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>Registrations</div>
-                    <IconText type="time" details="July 30th -  August 17th, 2022" />
+                    <IconText type="time" details="Extended Deadline : August 23rd, 2022" />
                     <Paragraph color="text-white" text={"Once the registrations are opened, fill out the team details through the registration form and download the sample proposal structure via www.hackX.lk"} />
                 </div>
 
                 <div className={selectedIndex === 1 ? "section-content active" : "section-content"}>
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>Proposal submission</div>
-                    <IconText type="time" details="August 27th, 2022" />
+                    <IconText type="time" details="Extended Deadline : September 2nd, 2022" />
                     <Paragraph color="text-white" text={"The proposals prepared according to the sample structure provided should be submitted via www.hackx.lk."} />
 
 
-                    <div className='flex justify-center pt-5'>
+                    <div className='flex flex-col md:flex-row justify-center pt-5 space-y-5 md:space-y-0 md:space-x-5'>
                         <Button
                             title={"Sample Proposal"}
                             href="https://drive.google.com/drive/folders/14S1FAyjl9D8lJwdqOeC8PSGKHBXcUEhZ?usp=sharing"
+                        />
+                        <Button
+                            title={"Submit Proposal"}
+                            href="https://forms.gle/yYMMTmeJJuETU1TGA"
                         />
                     </div>
                 </div>
