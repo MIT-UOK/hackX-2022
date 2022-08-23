@@ -37,15 +37,13 @@ function TimeLine() {
             <div id="progress-content-section">
                 <div className={selectedIndex === 0 ? "section-content active" : "section-content"}>
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>Registrations</div>
-                    <span className='bg-white p-2 rounded-md text-sm font-bold'>Extended Deadline : August 23rd, 2022</span>
-                    <IconText type="time" details="July 30th -  August 17th, 2022" />
+                    <IconText type="time" details="Extended Deadline : August 23rd, 2022" />
                     <Paragraph color="text-white" text={"Once the registrations are opened, fill out the team details through the registration form and download the sample proposal structure via www.hackX.lk"} />
                 </div>
 
                 <div className={selectedIndex === 1 ? "section-content active" : "section-content"}>
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>Proposal submission</div>
-                    <span className='bg-white p-2 rounded-md text-sm font-bold'>Extended Deadline : September 2nd, 2022</span>
-                    <IconText type="time" details="August 27th, 2022" />
+                    <IconText type="time" details="Extended Deadline : September 2nd, 2022" />
                     <Paragraph color="text-white" text={"The proposals prepared according to the sample structure provided should be submitted via www.hackx.lk."} />
 
 
