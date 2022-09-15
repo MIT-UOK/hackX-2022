@@ -16,18 +16,18 @@ function HomeLeft() {
                 className="text-5xl lg:text-6xl 2xl:text-8xl tracking-wide leading-snug mb-3 md:mb-10 font-normal text-white">
                 <Typewriter
                     options={{
-                        strings: ['NOW OPEN'],
+                        strings: ['CLOSED'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
             </h1>
-            <div >
+            {/* <div >
                 <Button
                     title={"Submit Proposal"}
                     href="https://forms.gle/yYMMTmeJJuETU1TGA"
                 />
-            </div>
+            </div> */}
         </div>
 
     );

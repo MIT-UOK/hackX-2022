@@ -63,7 +63,7 @@ function TimeLine() {
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>hackX Initial Ideation</div>
                     <IconText type="time" details="25th September, 2022" />
                     <IconText type="location" details="Multimedia Room, Department of Industrial Management, University of Kelaniya" />
-                    <Paragraph color="text-white" text={"30 teams with the most innovative ideas will be selected after the initial screening process. Each team will get 5 minutes to pitch their ideas infront of a distinguished panel of judges. The top 12 teams will compete in hackX 2022  finals."} />
+                    <Paragraph color="text-white" text={"30 teams with the most innovative ideas will be selected after the initial screening process. Each team will get 7-minutes to pitch their ideas, followed by a 3-minutes Q&A session. The top 12 teams will compete in hackX 2022  finals."} />
                 </div>
 
                 <div className={selectedIndex === 3 ? "section-content active" : "section-content"}>
