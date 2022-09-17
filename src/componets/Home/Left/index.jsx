@@ -7,7 +7,7 @@ import ideaXLogo from "../../../assets/ideaX.png"
 function HomeLeft() {
     // const { height } = useWindowDimensions();
     return (
-        <div  className="sm:pb-2 md:pb-0 text-center">
+        <div className="sm:pb-2 md:pb-0 text-center">
             {/* <h1
                 className="text-2xl lg:text-4xl 2xl:text-6xl  tracking-wide mb-3 md:mb-10 font-semibold text-primary">
                 PROPOSAL SUBMISSION
@@ -33,18 +33,17 @@ function HomeLeft() {
 
             <div className="flex flex-col justify-center items-center">
                 <h1 className="text-2xl text-white uppercase ">
-                    <div className="text-5xl my-3 font-bold">30 teams</div>
-                     <div className="my-3 text-4xl font-semibold">are ready to pitch their</div>
-                      <div className="text-4xl my-3 font-semibold">brilliant ideas at </div>
-                      </h1>
+                    <div className="text-4xl md:text-5xl my-3 font-bold">30 teams</div>
+                    <div className="my-3 text-3xl md:text-4xl font-semibold">are ready to pitch their</div>
+                    <div className="text-3xl md:text-4xl my-3 font-semibold">brilliant ideas at </div>
+                </h1>
                 <div className="my-5">
                     <img
-                    src={ideaXLogo}
-                    alt="ideaXLogo"
-                    width={150}
-                    height={150}
-                    // style={styles}
-                                />
+                        src={ideaXLogo}
+                        alt="ideaXLogo"
+                        width={150}
+                        height={150}
+                    />
                 </div>
             </div>
             <div className="text-left bg-gray-dark p-5 rounded-xl mx-2 md:mx-0">
