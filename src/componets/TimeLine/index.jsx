@@ -2,7 +2,7 @@ import HeadTile from '../HeadTitle';
 import "./index.css"
 import { useState } from "react";
 import Paragraph from "../Paragraph"
-import IconText from './IconText';
+import IconText from "../IconText";
 import Button from "../Button"
 
 
