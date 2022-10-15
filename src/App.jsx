@@ -9,6 +9,7 @@ import Info from "./componets/Info"
 import Guidelines from "./componets/Guidelines"
 import Team from "./componets/Team"
 import Partners from "./componets/Partners"
+// import EventDetails from "./componets/EventDetails"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      {/* <EventDetails /> */}
       <Info />
       <Guidelines />
       <TimeLine />
