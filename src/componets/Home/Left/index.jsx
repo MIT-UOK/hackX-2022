@@ -34,7 +34,7 @@ function HomeLeft() {
             <div className="flex flex-col justify-center items-center">
                 <h1 className="text-2xl text-white uppercase ">
                     <div className="text-4xl md:text-5xl font-bold">15 teams</div>
-                    <div className="my-1 text-3xl md:text-4xl font-semibold">are being supported in preparations for the hackX 2022 Grand Finals.</div>
+                    <div className="my-1 text-3xl md:text-4xl font-semibold">are being supported in preparations for the hackX 2022 Grand Finals</div>
                     {/* <div className="my-1 text-3xl md:text-4xl font-semibold">hackX 2022 Grand Finals.</div> */}
                 </h1>
                 <div className="my-5">
