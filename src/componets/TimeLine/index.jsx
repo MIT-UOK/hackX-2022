@@ -7,8 +7,8 @@ import Button from "../Button"
 
 
 function TimeLine() {
-    const [selectedIndex, setSelectedIndex] = useState(2)
-    const [lineWidth, setLineWidth] = useState("50%")
+    const [selectedIndex, setSelectedIndex] = useState(3)
+    const [lineWidth, setLineWidth] = useState("75%")
 
     const callLineWidth = (index) => {
         setSelectedIndex(index)
@@ -68,14 +68,14 @@ function TimeLine() {
 
                 <div className={selectedIndex === 3 ? "section-content active" : "section-content"}>
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>designX</div>
-                    <IconText type="time" details="October 23rd, 2022" />
+                    <IconText type="time" details="18th OCT. - 18th NOV." />
                     <IconText type="location" details="Via Zoom" />
                     <Paragraph color="text-white" text={"4 webinar sessions will be conducted to guide the finalists enhancing their skills."} />
                 </div>
 
                 <div className={selectedIndex === 4 ? "section-content active" : "section-content"}>
                     <div className='text-center text-white uppercase text-lg font-bold pb-5'>hackX 2022: Finals</div>
-                    <IconText type="time" details="October 30th, 2022" />
+                    <IconText type="time" details="November 20th, 2022" />
                     <IconText type="location" details="Ideamart Auditorium, Dialog Axiata " />
                     <Paragraph color="text-white" text={"This will be the final platform for the contestants to showcase their four-week perfected innovation. 12 finalists selected from ideaX and 3 finalists selected from Ideasprint will cross swords for the grand prize."} />
                 </div>
