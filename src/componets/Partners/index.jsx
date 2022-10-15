@@ -5,7 +5,7 @@ import HeadTile from "../HeadTitle";
 import sana from "../../assets/sponsors/RedSana.png"
 import creativeSoftware from "../../assets/sponsors/Creative Software_Large-01.png"
 import ideamart from "../../assets/sponsors/ideamart.png"
-import Evonsys from "../../assets/sponsors/Evonsysblack.jpg"
+import Evonsys from "../../assets/sponsors/Evonsys.png"
 import Connex from "../../assets/sponsors/Connex.png"
 import x99 from "../../assets/sponsors/99x.png"
 import loonslab from "../../assets/sponsors/loonslab.png"
