@@ -8,7 +8,7 @@ import Footer from "./componets/Footer"
 import Info from "./componets/Info"
 import Guidelines from "./componets/Guidelines"
 import Team from "./componets/Team"
-// import Partners from "./componets/Partners"
+import Partners from "./componets/Partners"
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
       <TimeLine />
       <Awards />
       <Team />
-      {/* <Partners /> */}
+      <Partners />
       <ContactUs />
       <Footer />
     </>

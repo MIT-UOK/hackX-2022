@@ -24,11 +24,11 @@ export const MenuItems = [
     url: "#OUR-TEAM",
     cName: "navlinks"
   },
-  // {
-  //   title: "PARTNERS",
-  //   url: "#PARTNERS",
-  //   cName: "navlinks"
-  // },
+  {
+    title: "PARTNERS",
+    url: "#PARTNERS",
+    cName: "navlinks"
+  },
   {
     title: "CONTACT",
     url: "#CONTACT",
